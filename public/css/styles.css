@@ -216,7 +216,7 @@ h1, h2, h3, h4 {
 /* General use classes */
 .button-blue {
   background-color: var(--pop);
-  color: white;
+  color: rgb(212, 19, 19);
   border: 0;
   border-radius: .3rem;
   padding: .5rem;
@@ -226,44 +226,6 @@ ul.open {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-}
-
-/* Button strip style */
-.button-strip {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: .5rem;
-}
-.button-strip button, .button-strip a, .button-strip input {
-  box-sizing: border-box;
-  border: 0 solid;
-  border-radius: 0;
-  padding: .5rem;
-  height: 50px;
-  width: fit-content;
-  background-color: white;
-  cursor: pointer;
-  transition: .3s box-shadow, .3s transform;
-}
-.button-strip button:hover, .button-strip a:hover, .button-strip input:hover {
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.186);
-  transform: translateY(-2px);
-  transition: .3s box-shadow, .3s transform;
-}
-.button-strip img {
-  height: 100%;
-  width: 100%;
-  pointer-events: none;
-}
-.button-strip *:first-child {
-  border-radius: .5rem 0 0 .5rem;
-}
-.button-strip *:last-child {
-  border-radius: 0 .5rem .5rem 0;
-}
-.button-strip *:only-child {
-  border-radius: .5rem;
 }
 
 @media screen and (min-width: 700px) {
