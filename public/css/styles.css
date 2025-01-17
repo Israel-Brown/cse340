@@ -45,7 +45,6 @@ nav {
 }
 
 nav ul {
-  /* Handle this later with a burger */
   display: flex;
   flex-wrap: wrap;
 }
@@ -55,29 +54,6 @@ main {
 }
 footer {
   overflow: hidden;
-}
-
-nav a {
-  display: inline-block;
-  color: unset;
-  filter: brightness(1.1);
-  text-decoration: none;
-  transition: transform .5s;
-}
-nav a:hover {
-  transform: scale(1.1);
-  transition: transform .5s;
-}
-
-a {
-  color: unset;
-}
-a:hover {
-  filter: brightness(1.4);
-}
-
-input:read-only {
-  background-color: rgba(255, 255, 255, 0.55);
 }
 
 nav ul {
@@ -95,7 +71,6 @@ nav ul {
 h1, h2, h3, h4 {
   font-family: var(--decorative-font);
 }
-
 
 #wrapper {
   background-color: var(--primary-bg);
